@@ -23,6 +23,3 @@ fi
 
 # Load the .plist file.
 launchctl load "${DIR}/${PLIST}" && echo -e "\\n\\033[0;32mAsimov daemon has been loaded!\\033[0m";
-
-# Run Asimov for the first time.
-"${DIR}/asimov"
